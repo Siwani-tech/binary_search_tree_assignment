@@ -87,10 +87,8 @@ function BinarySearch() {
       inOrder = inOrder.left;
     }
 
-   
     node.value = inOrder.value;
 
-   
     node.right = this.delete(inOrder.value, node.right);
 
     return node;
